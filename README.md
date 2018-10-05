@@ -1,5 +1,5 @@
 
-# Watson SDK - GOLANG
+# IBM Watson SDK - GOLANG
 
 This is a starting project for IBM Watson SDK on golang. Currently supports the following services and API Methods:
 
