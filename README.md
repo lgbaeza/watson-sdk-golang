@@ -22,8 +22,8 @@ import (
 
 func main() {
 
-	apikey := "SQ4udkPaOoKT-CLtSCtNBIOh4zCWQL-dQs3wOryB39UT"
-	imgUrl := "https://alkaway.com/wp-content/uploads/runner.jpg"
+	apikey := "" //your apikey
+	imgUrl := "https://alkaway.com/wp-content/uploads/runner.jpg" //a sample image
 	res := watson_sdk.ClassifyUrl(imgUrl, apikey)
 
 	class := getFirstClass(res)
